@@ -81,4 +81,6 @@ button:hover {
 
 a {
   text-decoration-line: none;
+  text-emphasis-color: inherit;
+  color: chartreuse;
 }
