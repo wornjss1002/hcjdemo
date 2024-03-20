@@ -33,18 +33,35 @@
     <!-- 메인섹션 -->
     <section class="main">
       <div class="container">
-       <h1>About</h1>
-
-       <h3>prof.JaeGweon</h3>
-
-       <img src="img/cheon1000.JPG" alt=""
-        height="400px"
-        width="300px"
-       >
-       <p>중부대학교 정보보호학과 천재권입니다.</p>
-       <p>
-        웹 개발과 보안에 관심을 갖고 공부하고 있습니다.
-       </p>
+        <form>
+          <div class="signbox">
+            <div class="signup">
+              <h1>webDemo</h1>
+              <div class="email">
+                <label for="fname">Email:</label>
+                <input
+                  type="email"
+                  name="email"
+                  id="email"
+                  placeholder="Email을 입력하세요"
+                />
+              </div>
+              <div class="password">
+                <label for="pass">Password :</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="pass"
+                  placeholder="패스워드를 입력하세요"
+                />
+              </div>
+              <br />
+              <input type="submit" id="submit" value="sign up" />
+            </div>
+          </div>
+        </form>
+      </div>
+      <br />
     </section>
 
     <script src="main.js"></script>
