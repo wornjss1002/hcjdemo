@@ -130,3 +130,11 @@ tr:nth-child(even) {
   height: 50px;
   font-size: x-large;
 }
+
+fieldset {
+  font-size: x-large;
+}
+
+h4 {
+  text-align: right;
+}
