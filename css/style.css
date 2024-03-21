@@ -8,7 +8,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background-color: linen;
+  background-color: whitesmoke;
 }
 
 ul {
@@ -80,9 +80,8 @@ button:hover {
 }
 
 a {
-  text-decoration-line: none;
   text-emphasis-color: inherit;
-  color: crimson;
+  color: rgb(100, 97, 97);
 }
 
 table {
@@ -107,7 +106,6 @@ tr:nth-child(even) {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-top: 100px;
 }
 .signup {
   width: 500px;
@@ -116,14 +114,13 @@ tr:nth-child(even) {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  border: 2px solid black;
-  background-color: white;
-  font-size: x-large;
+  background-color: whitesmoke;
+  font-size: xx-large;
 }
 #email,
 #pass {
   width: auto;
-  height: auto;
+  height: 35px;
 }
 #submit {
   width: 100px;
@@ -137,4 +134,10 @@ fieldset {
 
 h4 {
   text-align: right;
+}
+
+h1 {
+  text-align: center;
+  font-size: 60px;
+  color: black(198, 144, 144);
 }
