@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>웹프로그래밍 데모</title>
+    <title>Web Programming</title>
     <link rel="stylesheet" href="css\style.css" />
   </head>
   <body>
@@ -33,17 +33,29 @@
     <!-- 메인섹션 -->
     <section class="main">
       <div class="container">
-      <h1>Play</h1>
+      <h1>Survey</h1>
       <form>
           <fieldset>
             <legend>언어선택</legend>
-            <p>좋아하는 언어를 선택하세요</p>
+            <p id="survey">1.좋아하는 언어를 선택하세요</p>
             <label for=""><input type="checkbox" value="s_3">HTML</label>
             <label for=""><input type="checkbox" value="s_5">CSS</label>
             <label for=""><input type="checkbox" value="s_10">JavaScript</label>
-            <p>좋아하는 만큼 표현해주세요!</p>
-            <input type="range" min="0" max="10" value="0" step="2">
-            <input type="submit" value="제출하기">
+            <p id="survey">2.좋아하는 만큼 표현해주세요!</p>
+            <input type="range" min="0" max="10" value="0" step="1" style="width: 300px;">
+            <p id="survey">3.수업 참여도를 선택하세요!</p>
+            <label for=""><input type="radio" name="passion" value="p_1">열심히 안함</label>
+            <label for=""><input type="radio" name="passion" value="p_2">보통</label>
+            <label for=""><input type="radio"name="passion" value="p_3">열심히 함</label>
+            <label for=""><input type="radio"name="passion" value="p_4">매우 열정적</label>
+            <p id="survey">4.다음에 공부하고 싶은 언어를 골라보세요!</p>
+            <label for=""><input type="checkbox" >PHP(서버 사이드 스크립트 언어)</label>
+            <label for=""><input type="checkbox" >MySQL(오픈 소스 관계형 데이터베이스)</label>
+            
+            <p id="survey" >5.다음에 어떤 주제의 프로젝트를 하고 싶은지 적어주세요!</p>
+            <input type="text"placeholder="ex : 나만의 홈페이지 만들기" style="height: 200px; width: 1000px; ">
+            <br>
+            <input type="submit"value="제출하기" style="height: 50px;width: 100px" >
           </fieldset>
       </form>
     </section>

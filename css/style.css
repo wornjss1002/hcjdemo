@@ -141,3 +141,7 @@ h1 {
   font-size: 60px;
   color: black(198, 144, 144);
 }
+
+#survey {
+  margin: 40px auto;
+}
